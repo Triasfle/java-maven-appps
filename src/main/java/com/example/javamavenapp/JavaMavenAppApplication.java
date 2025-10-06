@@ -1,0 +1,12 @@
+package com.example.javamavenapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JavaMavenAppApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(JavaMavenAppApplication.class, args);
+        System.out.println("Application started!");
+    }
+}
